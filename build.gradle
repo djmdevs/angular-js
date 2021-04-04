@@ -4,8 +4,8 @@ plugins {
 	id 'java'
 }
 
-group = 'com.example'
-version = '1.0.1-SNAPSHOT'
+group = 'mz.co.dmj'
+version = '1.0.0-SNAPSHOT'
 sourceCompatibility = '1.8'
 
 repositories {
@@ -13,8 +13,22 @@ repositories {
 }
 
 dependencies {
+    //application starters
 	implementation     'org.springframework.boot:spring-boot-starter'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	
+	//implementation 'org.springframework.boot:spring-boot-starter-web'
+	//implementation 'org.springframework.boot:spring-boot-starter-jersey'
+	//implementation 'org.springframework.boot:spring-boot-starter-websocket'
+	
+	//production starters
+	//implementation     'org.springframework.boot:spring-boot-actuator'
+	
+	//technical starters
+	//implementation     'org.springframework.boot:spring-boot-starter-logging'
+	//implementation     'org.springframework.boot:spring-boot-starter-tomcat'
+	//implementation     'org.springframework.boot:spring-boot-starter-json'
+	
 }
 
 test {
