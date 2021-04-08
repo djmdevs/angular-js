@@ -4,7 +4,7 @@ plugins {
 	id 'java'
 }
 
-group = 'mz.co.dmj'
+group = 'mz.dmj'
 version = '1.0.0-SNAPSHOT'
 sourceCompatibility = '1.8'
 
